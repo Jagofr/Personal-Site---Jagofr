@@ -1,0 +1,130 @@
+/* Global Styling */
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap&effect=anaglyph|shadow-multiple');
+
+* {
+    background-color: 	clear;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* Element Based Styling */
+a:hover { color: ;  }
+a:active { color: red; }
+a:visited { color: #ECD9B0; }
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+section { 
+    margin: 0 auto; 
+    padding: 0 auto;
+}
+
+h1.title { 
+    font-size: 8em;
+    color: #110E15;
+    font-weight: 400;     
+}
+
+h2.subtitle { 
+    font-weight: 700;
+    color: #717E81;
+}
+
+h1 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#303030, #010101);
+    margin: 0;
+    z-index: 1;
+} 
+
+/* ID Based Styling */
+#jumbo-info-box {
+    display: inline-block;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 7em;
+
+}
+
+#jumbo-background { visibility: hidden; }
+
+#jumbo-info { 
+    color: #717E81;
+}
+
+#jumbo-info > h3.label-item{
+    font-weight: 300;
+}
+
+#jumbo-info > p{
+    font-weight: 300;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(#303030, #010101);
+    margin: 0;
+    padding: 1em 0 1em 1em;
+    z-index: 0;
+}
+
+#navbar a {
+    color: #939798;
+    text-decoration: none;
+    padding: 0.3em 0.4em;
+    font-weight: 300;
+    background-color: clear;
+}
+
+
+#site-splash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #1C1621, rgb(64, 80, 92)) ;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+#splash-ground {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    left: 35vw;
+    height: 100%;    
+    width: 100%;
+    transform: skewX(-45deg);
+    background: linear-gradient(90deg, #2E2E2E, #010101 100%);
+    z-index: 1;
+    border-left: 7px solid #1F2022;
+}
+
+
+#splash-ground img {
+    opacity: 15%;
+    transform: skewX(45deg);
+}
+
+/* Class Based Styling */
+
+div.jumbo {
+    padding-bottom: 20em;
+}
